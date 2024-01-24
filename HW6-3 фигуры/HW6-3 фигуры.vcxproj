@@ -42,7 +42,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
@@ -104,6 +104,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -127,7 +128,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="equilateral_triangle.cpp" />
+    <ClCompile Include="figura.cpp" />
     <ClCompile Include="HW6-3 фигуры.cpp" />
+    <ClCompile Include="isosceles_triangle.cpp" />
+    <ClCompile Include="parallelogram.cpp" />
+    <ClCompile Include="quadrilateral.cpp" />
+    <ClCompile Include="rectangle.cpp" />
+    <ClCompile Include="rhomb.cpp" />
+    <ClCompile Include="square.cpp" />
+    <ClCompile Include="triangle.cpp" />
+    <ClCompile Include="triangle90.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="equilateral_triangle.h" />
